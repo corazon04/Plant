@@ -79,7 +79,18 @@ public class Plant {
     }
 
 
-    public 
+    public int getStatusTumbuh(){
+        return statusTumbuh;
+    }
+    public void Panen(){
+        statusTumbuh = 0;
+        jumlahAir = 0;
+    }
+
+    // Import gambar
+    public String getImagePath(){
+        String tImagePath = ""
+    }
 
 
 
