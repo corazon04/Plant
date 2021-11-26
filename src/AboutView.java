@@ -19,6 +19,7 @@ class AboutView extends javax.swing.JFrame {
         JLabel jLabel6 = new javax.swing.JLabel();
         JLabel jLabel7 = new javax.swing.JLabel();
         JLabel jLabel8 = new javax.swing.JLabel();
+        JLabel jLabel9 = new javax.swing.JLabel();
 
         setTitle("Tentang Aplikasi");
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -30,13 +31,15 @@ class AboutView extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel4.setText("Diki Wahyudi");
         jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel5.setText("Lely");
+        jLabel5.setText("Muhamad Faral Rafizal");
         jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel6.setText("Lintang");
+        jLabel6.setText("Renaldy Hiunarto");
         jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel7.setText("Muklas");
+        jLabel7.setText("Renaldy gabriel");
         jLabel8.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel8.setText("Rafi");
+        jLabel8.setText("Gagas");
+        jLabel8.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel8.setText("Febi");
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
 
         jPanel1.setLayout(jPanel1Layout);
