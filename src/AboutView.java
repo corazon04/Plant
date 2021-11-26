@@ -28,7 +28,7 @@ class AboutView extends javax.swing.JFrame {
         jLabel3.setText("Developed by:");
 
         jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel4.setText("Abdullah");
+        jLabel4.setText("Diki Wahyudi");
         jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel5.setText("Lely");
         jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -38,10 +38,12 @@ class AboutView extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel8.setText("Rafi");
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,jPanel1Layout.createSequentialGroup().addContainerGap(121, Short.MAX_VALUE).addComponent(jLabel2)
-                                .addGap(133, 133, 133))
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,
+                        jPanel1Layout.createSequentialGroup().addContainerGap(121, Short.MAX_VALUE)
+                                .addComponent(jLabel2).addGap(133, 133, 133))
                 .addGroup(jPanel1Layout.createSequentialGroup().addGap(192, 192, 192)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                                 .addComponent(jLabel4).addComponent(jLabel5).addComponent(jLabel6).addComponent(jLabel7)
@@ -82,12 +84,11 @@ class AboutView extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>
-
+// tesss
     /**
      * @param args the command line arguments
      */
 
-     
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         // <editor-fold defaultstate="collapsed" desc=" Look and feel setting code
