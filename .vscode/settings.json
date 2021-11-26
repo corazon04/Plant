@@ -1,7 +1,7 @@
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "vscode-icons",
     "cmake.configureOnOpen": false,
 }

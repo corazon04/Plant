@@ -1,4 +1,3 @@
-package Pro.Plant;
 
 public class Plant {
     protected int statusTumbuh;
@@ -44,6 +43,11 @@ public class Plant {
         cekKondisiTumbuh();
     }
 
+    public void beriPupuk() {
+        jumlahPupuk++;
+        cekKondisiTumbuh();
+    }
+
     public void cekKondisiTumbuh() {
         if (jumlahAir >= 3 && jumlahPupuk >= 1) {
             tumbuh();
@@ -78,20 +82,37 @@ public class Plant {
         return "Berbunga";
     }
 
-
-    public int getStatusTumbuh(){
+    public int getStatusTumbuh() {
         return statusTumbuh;
     }
-    public void Panen(){
+
+    public void Panen() {
         statusTumbuh = 0;
         jumlahAir = 0;
     }
 
     // Import gambar
-    public String getImagePath(){
-        String tImagePath = ""
+    public String getImagePath() {
+        String tImagePath = "img/benih.jpg";
+        switch (statusTumbuh) {
+        case 0:
+            tImagePath = "img/benih.jpg";
+            break;
+        case 1:
+            tImagePath = "img/tumbuh.jpg";
+            break;
+        case 2:
+            tImagePath = "img/tanaman_muda.jpg";
+            break;
+        case 3:
+            tImagePath = "img/tanaman_dewasa.jpg";
+            break;
+        case 4:
+            tImagePath = "img/tanaman_mekar.jpg";
+            break;
+
+        }
+        return tImagePath;
     }
-
-
 
 }
