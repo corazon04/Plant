@@ -5,11 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.lang.Thread;
 
-/*
-* To change this license header, choose License Headers in Project Properties.
-* To change this template file, choose Tools | Templates
-* and open the template in the editor.
-*/
+
 /**
  *
  * @author Kelompok 2
@@ -80,7 +76,6 @@ public class MainMenu extends javax.swing.JFrame {
         StokAir = new javax.swing.JTextField();
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         // INI JUDUL
-
 
         setTitle("Aplikasi UwuGarden");
         bodyPanel.setBackground(new java.awt.Color(0, 255, 0));
@@ -562,7 +557,6 @@ public class MainMenu extends javax.swing.JFrame {
      * @param args the command line arguments
      */
 
-     
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         // <editorfold defaultstate="collapsed" desc=" Look and feel setting code
