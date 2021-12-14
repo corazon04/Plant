@@ -1,7 +1,4 @@
-/**
- *
- * @author Kelompok 2
- */
+
 public class Mawar extends Plant {
     private String jenis;
     private String asal_mawar;
@@ -32,7 +29,7 @@ public class Mawar extends Plant {
 
     public String getImagePath() {
         if (this.statusTumbuh == 4) {
-            return "img/mawar_turki.jpg";
+            return "img/mawar.jpg";
         }
         return super.getImagePath();
     }

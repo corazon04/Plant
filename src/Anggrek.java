@@ -28,7 +28,7 @@ public class Anggrek extends Plant {
 
     public String getImagePath() {
         if (this.statusTumbuh == 4) {
-            return "img/anggrek_bulan.jpg";
+            return "img/anggrek.jpg";
         }
         return super.getImagePath();
     }

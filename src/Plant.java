@@ -63,7 +63,7 @@ public class Plant {
     }
 
     public void displayPlant() {
-        System.out.println(getStatusTumbuhText());
+        // System.out.println(getStatusTumbuhText());
         System.out.println("Jumlah Air :" + jumlahAir);
         System.out.println("Jumlah Pupuk" + jumlahPupuk);
     }
@@ -96,23 +96,28 @@ public class Plant {
         String tImagePath = "img/benih.jpg";
         switch (statusTumbuh) {
         case 0:
-            tImagePath = "img/benih.jpg";
+            tImagePath = "img/seed.png";
             break;
         case 1:
-            tImagePath = "img/tumbuh.jpg";
+            tImagePath = "img/sprout.png";
             break;
         case 2:
-            tImagePath = "img/tanaman_muda.jpg";
+            tImagePath = "img/small.png";
             break;
         case 3:
-            tImagePath = "img/tanaman_dewasa.jpg";
+            tImagePath = "img/big.png";
             break;
         case 4:
-            tImagePath = "img/tanaman_mekar.jpg";
+            tImagePath = "img/blossom.png";
             break;
 
         }
         return tImagePath;
+    }
+
+    public int resetStatusTumbuh(){
+        statusTumbuh =0;
+        return statusTumbuh;
     }
 
 }

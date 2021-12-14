@@ -28,7 +28,7 @@ public class Melati extends Plant {
 
     public String getImagePath() {
         if (this.statusTumbuh == 4) {
-            return "img/jasminum_plyanthum.jpg";
+            return "img/melati.jpg";
         }
         return super.getImagePath();
     }
