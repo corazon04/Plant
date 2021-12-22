@@ -29,7 +29,7 @@ public class PlantMain2 {
                     m.beriPupuk();
                     break;
                 case 2:
-                    m.resetStatusTumbuh();
+                    m.Panen();
                     break;
             }
             System.out.println("-------------");

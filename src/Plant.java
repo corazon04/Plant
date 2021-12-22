@@ -115,9 +115,4 @@ public class Plant {
         return tImagePath;
     }
 
-    public int resetStatusTumbuh(){
-        statusTumbuh =0;
-        return statusTumbuh;
-    }
-
 }
